@@ -59,7 +59,7 @@ const AddCourse = () => {
             type="text"
             name="photo"
       
-            placeholder="Enter course title"
+            placeholder="Enter photo Url"
             className="p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             required
           />
