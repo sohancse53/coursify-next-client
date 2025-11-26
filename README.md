@@ -1,4 +1,5 @@
 # Coursify
+**Live Demo:** [https://coursify50.netlify.app/](https://coursify50.netlify.app/)
 
 Coursify is a modern web application for managing and exploring online courses. Built with **Next.js** and **JavaScript** on the frontend, and **Express.js** with **MongoDB** on the backend, it provides a smooth experience for adding, viewing, and managing courses.
 
