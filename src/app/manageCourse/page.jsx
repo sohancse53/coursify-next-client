@@ -7,7 +7,7 @@ const manageCourse = async () => {
   const email = user?.primaryEmailAddress?.emailAddress;
   console.log(email);
 
-  const res = await fetch(`http://localhost:5000/course?email=${email}`);
+  const res = await fetch(`https://coursifyserverapi.vercel.app/course?email=${email}`);
   const data = await res.json();
   return (
     <div>

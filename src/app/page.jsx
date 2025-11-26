@@ -20,7 +20,7 @@ export default async function Home() {
      <PopularCourses/>
      <Testimonials/>
      <PromoBanner/>
-     <Loader/>
+
     </div>
   );
 }

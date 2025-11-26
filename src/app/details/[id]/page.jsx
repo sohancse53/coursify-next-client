@@ -6,7 +6,7 @@ import BackButton from "@/components/BackButton";
 const details = async ({ params }) => {
   const { id } = await params;
 
-  const res = await fetch(`http://localhost:5000/course/${id}`);
+  const res = await fetch(`https://coursifyserverapi.vercel.app/course/${id}`);
   const data = await res.json();
   console.log(data);
 

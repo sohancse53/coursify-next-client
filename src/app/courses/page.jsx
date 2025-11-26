@@ -2,7 +2,7 @@ import Card from "@/components/Card";
 import SearchButton from "@/components/SearchButton";
 
 const courses = async () => {
-  const res = await fetch("http://localhost:5000/course");
+  const res = await fetch("https://coursifyserverapi.vercel.app/course");
   const data = await res.json();
   console.log(data);
 

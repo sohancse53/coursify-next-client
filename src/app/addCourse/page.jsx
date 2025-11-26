@@ -20,7 +20,7 @@ const AddCourse = () => {
             email:email,
         }
         console.log(newCourse);
-        fetch('http://localhost:5000/course',{
+        fetch('https://coursifyserverapi.vercel.app/course',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(newCourse)
