@@ -54,7 +54,7 @@ const AddCourse = () => {
         </div>
         {/* photo */}
         <div className="flex flex-col">
-          <label className="text-gray-700 font-medium mb-2">Photo Url</label>
+          <label className="text-gray-700 font-medium mb-2">Photo url</label>
           <input
             type="text"
             name="photo"
