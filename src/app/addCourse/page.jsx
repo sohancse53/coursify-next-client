@@ -15,7 +15,7 @@ const AddCourse = () => {
             image:e.target.photo.value,
             category:e.target.category.value,
             price:e.target.price.value,
-            date: new Date().toLocaleDateString(),
+            date: new Date(),
             description:e.target.description.value,
             email:email,
         }
